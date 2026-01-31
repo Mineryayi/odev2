@@ -74,10 +74,24 @@ body {
     gap: 15px;
 }
 
-.item-sari { background-color: #f1c40f; flex: 1; }
-.item-yesil-kutu { background-color: #7ab800; flex: 1; }
-.item-mavi { background-color: #3498db; flex: 1; }
-.item-turuncu { background-color: #f39c12; flex: 1; }
+.item-sari {
+    background-color: #f1c40f;
+    flex: 1; }
+
+
+.item-yesil-kutu {
+    background-color: #7ab800;
+    flex: 1; }
+
+
+.item-mavi {
+    background-color: #3498db;
+    flex: 1; }
+
+
+.item-turuncu {
+    background-color: #f39c12;
+    flex: 1; }
 
 .item-alt-yesil {
     background-color: #7ab800; 
@@ -85,7 +99,7 @@ body {
     width: 100%;
 }
 
-/* Kural 3: Responsive Tasarım */
+
 @media (max-width: 768px) {
     .ust-bolum {
         flex-direction: column;
